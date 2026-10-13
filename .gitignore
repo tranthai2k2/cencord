@@ -1,0 +1,32 @@
+# Local environments and caches
+.claude/
+manga-image-cleanup/
+HUONG_DAN_KIEM_TRA_VA_CAI_THIEN.md
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Generated outputs and training data
+runs/
+train-collect/
+dataset/
+data-alll/
+_orientation_backup/
+_orientation_sheets/
+_orientation_sheets_after/
+blur_manifest.json
+
+# Large local assets and models
+*.pt
+*.onnx
+*.exe
+*.mp4
+*.gif
+*.zip
+*.7z
+
+# Local IDE/config files
+.idea/
+.vscode/
